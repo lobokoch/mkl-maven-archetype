@@ -1,0 +1,18 @@
+domain /*your domain name*/
+microservice /*your service name*/ {
+	
+	config {
+		groupId: "br.com.kerubin.api"
+		version: "1.0.0-SNAPSHOT"
+		cloudConfigUri: "http://localhost:9091"
+	}
+	
+	
+	/**	Define your entities
+	entity person {
+		id: uuid
+		name: string
+	}
+	*/
+	
+}

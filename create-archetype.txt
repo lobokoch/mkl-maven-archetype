@@ -1,0 +1,6 @@
+mvn archetype:generate -B -DarchetypeGroupId=br.com.kerubin.api -DarchetypeArtifactId=mkl-maven-archetype -DarchetypeVersion=1.2.0 -DgroupId=br.com.kerubin.api -DartifactId=kerubin-contas  -Dversion=1.0.0-SNAPSHOT -Dpackage=br.com.kerubin.api.contas
+
+
+mvn archetype:generate -B -DarchetypeGroupId=br.com.kerubin.api -DarchetypeArtifactId=mkl-maven-archetype -DarchetypeVersion=1.2.0 -DgroupId=br.com.kerubin.api -DartifactId=contas-contaspagar  -Dversion=1.0.0-SNAPSHOT -Dpackage=br.com.kerubin.api.contas.contaspagar
+
+mvn archetype:generate -B -DarchetypeGroupId=br.com.kerubin.api -DarchetypeArtifactId=mkl-maven-archetype -DarchetypeVersion=1.2.0 -DgroupId=br.com.kerubin.api -DartifactId=banco  -Dversion=1.0.0-SNAPSHOT -Dpackage=br.com.kerubin.api.banco
